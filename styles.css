@@ -71,7 +71,7 @@
   display: flex;
   margin: 40px;
   padding: 20px;
-  width: 80%;
+  width: 790px;
   height: 300px;
   border: 2px solid lightgray;
   border-radius: 6px;
@@ -100,4 +100,82 @@
 }
 #footer-link:hover {
   color: #42b5c9;
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  #output {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+  #title1 {
+    font-size: 2.5rem;
+  }
+  #title2 {
+    font-size: 1.2rem;
+  }
+  #output {
+    width: 90%;
+    height: 250px;
+  }
+  #age {
+    font-size: 4rem;
+  }
+  #nameInput {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    height: 30px;
+
+  }
+  #go {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    width: 80px;
+    height:30px;
+  }
+  p {
+    font-size: .8rem;
+  }
+  #footer-link {
+    font-size: .8rem;
+  }
+}
+@media only screen and (max-width: 539px) {
+  #title1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  #title2 {
+    font-size: 1rem;
+  }
+  #output {
+    width: 100%;
+    height: 200px;
+    font-size: .8rem;
+  }
+  p {
+    font-size: .7rem;
+  }
+  #selector {
+    font-size: 1rem;
+  }
+  #age {
+    font-size: 4rem;
+  }
+  #nameInput {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    height: 30px;
+
+  }
+  #go {
+    font-size: .8rem;
+    margin-bottom: 10px;
+    width: 80px;
+    height:30px;
+  }
+  #footer-link {
+    font-size: .7rem;
+    margin: 10px;
+  }
 }
